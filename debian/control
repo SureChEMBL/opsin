@@ -1,0 +1,38 @@
+Source: opsin
+Section: java
+Priority: optional
+Maintainer: Yury Zavarin <yzavarin@ebi.ac.uk>
+Build-Depends:
+ debhelper (>= 9),
+ default-jdk (>= 1.5),
+ junit4,
+ libmaven-assembly-plugin-java,
+ libmaven-cobertura-plugin-java,
+ libmaven-javadoc-plugin-java,
+ libmaven-project-info-reports-plugin-java,
+ libmaven-site-plugin-java,
+ libmockito-java (>= 1.8.5),
+ maven-debian-helper (>= 1.5),
+Build-Depends-Indep:
+ libautomaton-java (>= 1.11-8),
+ libcommons-cli-java (>= 1.2),
+ libcommons-io-java (>= 2.0.1),
+ libjaxen-java (>= 1.1.6),
+ libjni-inchi-java (>= 0.8),
+ liblog4j1.2-java (>= 1.2.16),
+ libxom-java (>= 1.2.5),
+Standards-Version: 3.9.7
+
+Package: libopsin-java
+Architecture: all
+Depends:
+ ${misc:Depends},
+ ${maven:Depends},
+ libautomaton-java (>= 1.11-8),
+ libcommons-cli-java (>= 1.2),
+ libcommons-io-java (>= 2.0.1),
+ libjaxen-java (>= 1.1.6),
+ libjni-inchi-java (>= 0.8),
+ liblog4j1.2-java (>= 1.2.16),
+ libxom-java (>= 1.2.5),
+Description: Open Parser for Systematic IUPAC Nomenclature

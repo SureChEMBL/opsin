@@ -1,0 +1,8 @@
+/debhelper-build-stamp
+/files
+/libopsin-java*
+/maven-repo/
+/maven.cleanIgnoreRules
+/maven.ignoreRules
+/maven.publishedRules
+/stamp-poms-patched

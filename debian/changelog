@@ -1,0 +1,7 @@
+opsin (1.5.0+maven-1) unstable; urgency=medium
+
+  * Initial release. Named as 1.5.0+maven-1 to avoid ambiguity with
+    libopsin-java=1.5.0-1 from original Debian/Ubuntu packages (that
+    version doesn't install OPSIN into /usr/share/maven-repo).
+
+ -- Yury Zavarin <yzavarin@ebi.ac.uk>  Mon, 26 Jun 2017 18:08:52 +0100
